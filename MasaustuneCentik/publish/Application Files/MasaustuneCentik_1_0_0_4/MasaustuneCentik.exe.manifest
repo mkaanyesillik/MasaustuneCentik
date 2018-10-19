@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MasaustuneCentik.exe" version="1.0.0.4" publicKeyToken="efb45cd1f3faa7d7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MasaustuneCentik" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MasaustuneCentik.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="132096">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.5" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zludu02+bC6aDF9uL9O3ofGVWe0+/ifw6rFLHDmN/Rc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MasaustuneCentik.exe" size="14304">
+      <assemblyIdentity name="MasaustuneCentik" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>o9cd5gb/1AgIo98hv+YJgG8ntO2CCf5rpXT3mOUTzg0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon\intvar.png" size="2196">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+v82O2besQ1RcBAGC6mJxmwM6QCV9WXbWW9bm7Im63w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon\intyok.png" size="2193">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iow5IdisyZQO+5evJpZeUl009fGcBJyefXOJpVe+agE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MasaustuneCentik.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4I8I4BS\mkaan" issuerKeyHash="cd5e13c39ae0e8704aadef50c237ace8868eb493" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>am/f+HPVKiSa7pGuaNn2/OMK/ORQ3Ajq2s5Ysz4HO1A=</DigestValue></Reference></SignedInfo><SignatureValue>ZSnpgPygqKhMk3FcGSQRkGSmWmrB8W69VBvJXawDSGe1H2+H8LWVW+XB/nelcWbmepOAPqRpwLCImyxL+0h3R05SAv0A/Ukm+wPtlCawkavwMnsNNppXJz7N2TIURrKD6ci3EaNLOhS2WIRSJhTfvDETlOziixuNL/+/bCoRWO4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0HiSUOM+jYV/cxSPm9uFINajJW0aiMA+u3G/KIt9Ta/1xgkWpK6zHFtbvCK4xxkjmP93Gak/g+9NHPgpSaGxjYyjAEdnQqereZUsldBnxhduJjIPIqXDNI4Pmnt6NStqX3j9tz0eykDoHvyrSCM05nLzdXNpP8eqI+Zbfl8w5kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="503b073eb358cedaea08dc50e4fc0ae3fcf6d968ae91ee9a242ad573f8df6f6a" Description="" Url=""><as:assemblyIdentity name="MasaustuneCentik.exe" version="1.0.0.4" publicKeyToken="efb45cd1f3faa7d7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4I8I4BS\mkaan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4ocPZODdmjJoXUmztH1IcSljFbc7eO9ooCXICLLs9GY=</DigestValue></Reference></SignedInfo><SignatureValue>qRVkNj1W7gA25s4BcqcXEmSuCGnU9tFmzgO5zcpNV7Zw29zBZABqxNeqjtiZNXbbaXt9Lowb/wb+7Ff1LC52XxfJ0pN+/ZrrofEajzj/iRiSILIx3vP/R8OH0lKYAYU6a6JC6kdjSK6UYJXLRzrp3LdRT6D9q1y8jk3wr7H+bEY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0HiSUOM+jYV/cxSPm9uFINajJW0aiMA+u3G/KIt9Ta/1xgkWpK6zHFtbvCK4xxkjmP93Gak/g+9NHPgpSaGxjYyjAEdnQqereZUsldBnxhduJjIPIqXDNI4Pmnt6NStqX3j9tz0eykDoHvyrSCM05nLzdXNpP8eqI+Zbfl8w5kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRAZMfXyhrodINLsn+7fHVjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQASQA4AEkANABCAFMAXABtAGsAYQBhAG4wHhcNMTgxMDE5MTMyODM1WhcNMTkxMDE5MTkyODM1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQASQA4AEkANABCAFMAXABtAGsAYQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANB4klDjPo2Ff3MUj5vbhSDWoyVtGojAPrtxvyiLfU2v9cYJFqSusxxbW7wiuMcZI5j/dxmpP4PvTRz4KUmhsY2MowBHZ0Knq3mVLJXQZ8YXbiYyDyKlwzSOD5p7ejUral94/bc9HspA6B78q0gjNOZy83VzaT/HqiPmW35fMOZBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAqPq2bXLO9JLP9RhUCV4lZKLgIXg5L11eIrKxisyDzaxmV9fiW4Y0ugKbvpCxcj5qoJr7SzpgE/46e+MtZpouMffsLTEtyf/s63nhwpN7SZ/0QKtNBAouATQVRZ1GeweQJDKiW5j/z248V5EGYNuU2RffBNxhdDuame4jPfiVIIM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
